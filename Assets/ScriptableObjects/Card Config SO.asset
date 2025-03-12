@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e10d9b5ba40af4a8e09f15a3cbc6e9, type: 3}
+  m_Name: Card Config SO
+  m_EditorClassIdentifier: 
+  CardConfigs:
+  - type: 0
+    generateColor: 5
+    value: 0-9
+    spriteValue: {fileID: 0}
+  - type: 1
+    generateColor: 1
+    value: 2
+    spriteValue: {fileID: -1153210524, guid: 81e703adb9f68f449bd2dc55a2d9027c, type: 3}
+  - type: 1
+    generateColor: 2
+    value: 2
+    spriteValue: {fileID: -1724100578, guid: 81e703adb9f68f449bd2dc55a2d9027c, type: 3}
+  - type: 1
+    generateColor: 3
+    value: 2
+    spriteValue: {fileID: -1002396408, guid: 81e703adb9f68f449bd2dc55a2d9027c, type: 3}
+  - type: 1
+    generateColor: 0
+    value: 2
+    spriteValue: {fileID: -1148091090, guid: 81e703adb9f68f449bd2dc55a2d9027c, type: 3}
+  - type: 3
+    generateColor: 5
+    value: 
+    spriteValue: {fileID: 21300000, guid: 37197c1dad8cc1f4d864f304e13cfbe2, type: 3}
+  - type: 2
+    generateColor: 5
+    value: 
+    spriteValue: {fileID: 21300000, guid: 16279badabc65414fb46aea4992070ec, type: 3}
+  - type: 4
+    generateColor: 4
+    value: 
+    spriteValue: {fileID: 21300000, guid: 3f7d72ed79bb86344b0e33d37aa0fe6d, type: 3}
+  - type: 1
+    generateColor: 4
+    value: 4
+    spriteValue: {fileID: 21300000, guid: 1bb1c05bfadd05948a47fbc5ff816b26, type: 3}

@@ -643,10 +643,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2336.000244140625,
-            "y": 225.00001525878907,
+            "x": -2369.0,
+            "y": 238.00001525878907,
             "width": 130.0,
-            "height": 34.00004577636719
+            "height": 33.99998474121094
         }
     },
     "m_Slots": [
@@ -1269,7 +1269,7 @@
     "m_ShaderOutputName": "Offset",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.0,
+        "x": -0.02500000037252903,
         "y": -0.3499999940395355
     },
     "m_DefaultValue": {
@@ -1713,10 +1713,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1723.0001220703125,
-            "y": -137.99998474121095,
+            "x": -1770.9998779296875,
+            "y": -27.000019073486329,
             "width": 208.0,
-            "height": 325.9999694824219
+            "height": 326.00006103515627
         }
     },
     "m_Slots": [
@@ -2416,7 +2416,7 @@
     "m_ShaderOutputName": "Tiling",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
+        "x": 1.0499999523162842,
         "y": 1.7000000476837159
     },
     "m_DefaultValue": {
@@ -3255,8 +3255,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2049.0,
-            "y": -591.0,
+            "x": -2102.0,
+            "y": -542.0,
             "width": 208.0,
             "height": 127.0
         }
