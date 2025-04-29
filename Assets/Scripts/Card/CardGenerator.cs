@@ -6,12 +6,12 @@ using UnityEngine;
 public class CardGenerator : MonoBehaviour
 {
     [SerializeField] private CardConfigSO cardConfigSo;
-    [SerializeField] private CardComponent cardPrefab;
 
-    private void Start()
+    private List<CardData> GenerateCard()
     {
         var xPos = 0;
         var yPos = 0;
+        var cards = new List<CardData>();
         foreach (var cardConfig in cardConfigSo.CardConfigs)
         {
             var listValue = GetValueList(cardConfig.value);
@@ -22,8 +22,8 @@ public class CardGenerator : MonoBehaviour
                     : new List<CardData.CardColorEnum> { cardConfig.generateColor };
                 foreach (var color in listColor)
                 {
-                    var card = Instantiate(cardPrefab, transform);
-                    card.SetCardData(new CardData(cardConfig.type, value, color), cardConfig.spriteValue,
+                    // var card = Instantiate(cardPrefab, transform); 
+                    var cardData = (new CardData(cardConfig.type, value, color), cardConfig.spriteValue,
                         cardConfig.generateColor == CardData.CardColorEnum.All);
                     card.transform.position = new Vector3(xPos, yPos);
                     xPos += 1;
@@ -32,6 +32,7 @@ public class CardGenerator : MonoBehaviour
 
             yPos += 1;
         }
+        return cards; 
     }
 
     private List<int> GetValueList(string valueField)
